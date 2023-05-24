@@ -4,13 +4,13 @@
 
 <div class="comic-container py-4">
     <div class="container">
-        <div class="row row-cols-6 g-3">
+        <div class="row row-cols-5 g-3">
             @foreach ($movies as $movie)
                 <div class="col">
                     <div class="card">
+                        <img src="{{$movie -> image}}" alt="">
                         <div class="card-body">
-                            <img src="{{$movie -> image}}" alt="">
-                            <h3 class="card-title">{{$movie -> title}}</h3>
+                            <h5 class="card-title">{{$movie -> title}}</h5>
                         </div>
                     </div>
                 </div>

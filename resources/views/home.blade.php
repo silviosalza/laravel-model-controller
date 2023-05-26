@@ -12,6 +12,7 @@
                         <div class="card-body">
                             <h5 class="card-title">{{$movie -> title}}</h5>
                         </div>
+                        <h1>branch test</h1>
                     </div>
                 </div>
             @endforeach
